@@ -1,5 +1,6 @@
 function decimalToBinary(num) {
   // your code here
+	if(num === 0) return '0';
 	let binary = ''; 
     while (num > 0) { 
         binary = (num % 2) + binary; 
